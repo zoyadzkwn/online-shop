@@ -1,0 +1,122 @@
+body {
+	margin: auto;
+	font-family: sans-serif;
+	width: 900px;
+	background-image: url(img/hotel-wallpaper.png);
+}
+
+.header {
+	margin: 0px;
+	color: white;
+	background: midnightblue;
+	height: 100px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 15px;
+}
+
+.navbar ul {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.navbar ul li {
+	display: inline;
+	margin: 10px;
+}
+
+.navbar ul li a {
+	text-decoration: none;
+	color: azure;
+}
+
+.navbar ul li a:hover {
+	color: midnightblue;
+	text-decoration: underline;
+}
+
+.kanan {
+	float: left;
+	margin-left: 10px;
+	background-color: floralwhite;
+}
+
+.gambar {
+	width: 600px;
+	display: inline-grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.kiri {
+	float: right;
+	margin-top: 10px;
+	width: 280px;
+	border: 1px solid midnightblue;
+	background-color: mintcream;
+}
+
+.kiri h1 {
+	font-weight: normal;
+	font-size: 20px;
+	background: midnightblue;
+	text-align: center;
+	margin-top: 1px;
+	padding: 5px;
+	color: mintcream;
+}
+
+.kiri li {
+	list-style: none;
+	margin: 15px;
+	text-decoration: none;
+}
+
+.kiri a {
+	text-decoration: none;
+	color: midnightblue;
+}
+
+.kiri a:hover{
+	background-color: midnightblue;
+	padding: 5px;
+	color: mintcream;
+}
+
+.gambar .foto img {
+	width: 80px;
+}
+
+.gambar .foto h1 {
+	font-size: 25px;
+}
+
+.foto {
+	border: 1px solid midnightblue;
+	margin: 10px;
+	text-align: center;
+}
+
+.foto a {
+	border: 1px solid forestgreen;
+	padding: 10px;
+	color: mintcream;
+	background: midnightblue;
+	text-decoration: none;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+.footer {
+	margin-top: 75%;
+	color: mintcream;
+	background: midnightblue;
+	height: 40px;
+	clear: both;
+}
+
+.footer p {
+	padding-top: 15px;
+	text-decoration: none;
+	color: mintcream;
+	text-align: center;
+}
